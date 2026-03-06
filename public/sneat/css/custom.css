@@ -1,0 +1,718 @@
+/* ======================== */
+/* Custom Warna Tampilan    */
+/* ======================== */
+
+/* Ubah warna teks abu-abu jadi lebih gelap */
+.text-muted {
+    color: #0a0a0a !important;
+}
+
+/* Ubah warna teks utama jadi oranye */
+.text-primary {
+    color: #f504d5 !important;
+}
+
+/* Ubah warna background utama */
+.bg-primary {
+    background-color: #ff5733 !important;
+}
+
+/* Ubah warna background tombol utama */
+.btn-primary {
+    background-color: #ff5733 !important;
+    border-color: #ff5733 !important;
+}
+
+.btn-primary:hover {
+    background-color: #e14e2d !important;
+    border-color: #e14e2d !important;
+}
+
+/* Ubah warna heading supaya lebih tegas */
+h1, h2, h3, h4 {
+    color: #0a0a0a !important;
+}
+
+/* Ubah warna link supaya lebih jelas */
+a {
+    color: #0742c2 !important;
+}
+
+a:hover {
+    color: #0742c2 !important;
+    text-decoration: underline;
+}
+
+/* Ubah warna teks isi */
+body, p, span, div {
+    color: #070707 !important;
+}
+
+/* Ubah warna background halaman agar tidak full putih */
+body {
+    background-color: #5e595e !important;
+}
+
+/* Ubah warna container supaya lebih terpisah */
+.container-xxl {
+    background-color: #da62bc !important;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(7, 7, 7, 0.1);
+}
+
+/* CUSTOM OVERRIDE UNTUK TAMPILAN LEBIH JELAS */
+
+/* Warna tombol utama */
+.btn-primary {
+    color: #fff !important;
+    background-color: #dd46c4 !important; /* Hijau segar */
+    border-color: #4caf50 !important;
+    box-shadow: 0 0.125rem 0.25rem 0 rgba(76, 175, 80, 0.4) !important;
+}
+
+.btn-primary:hover {
+    color: #fff !important;
+    background-color: #43a047 !important;
+    border-color: #43a047 !important;
+    transform: translateY(-1px);
+}
+
+/* Warna tabel */
+.table-primary {
+    --bs-table-bg: #5690d3 !important; /* Hijau muda */
+    --bs-table-striped-bg: #c0e8af !important;
+    --bs-table-striped-color: #000 !important;
+    --bs-table-active-bg: #b2dfdb !important;
+    --bs-table-active-color: #000 !important;
+    --bs-table-hover-bg: #a5d6a7 !important;
+    --bs-table-hover-color: #000 !important;
+    color: #000 !important;
+    border-color: #a5d6a7 !important;
+}
+
+.table-primary th {
+    border-bottom-color: inherit !important;
+}
+
+.table-primary .btn-icon {
+    color: #000 !important;
+}
+
+/* Navbar */
+.navbar.bg-primary {
+    background-color: #4caf50 !important;
+    color: #ffffff !important;
+}
+
+.navbar.bg-primary .navbar-brand,
+.navbar.bg-primary .navbar-brand a {
+    color: #ffffff !important;
+}
+
+.navbar.bg-primary .navbar-brand:hover, 
+.navbar.bg-primary .navbar-brand:focus,
+.navbar.bg-primary .navbar-brand a:hover,
+.navbar.bg-primary .navbar-brand a:focus {
+    color: #ffffff !important;
+}
+
+.navbar.bg-primary .navbar-nav > .nav-link,
+.navbar.bg-primary .navbar-nav > .nav-item > .nav-link,
+.navbar.bg-primary .navbar-nav > .nav > .nav-item > .nav-link {
+    color: #ffffff !important;
+}
+
+.navbar.bg-primary .navbar-nav > .nav-link:hover, 
+.navbar.bg-primary .navbar-nav > .nav-link:focus,
+.navbar.bg-primary .navbar-nav > .nav-item > .nav-link:hover,
+.navbar.bg-primary .navbar-nav > .nav-item > .nav-link:focus {
+    color: #ffeb3b !important; /* Kuning saat hover */
+}
+
+.navbar.bg-primary .navbar-toggler {
+    color: #ffffff !important;
+    border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.navbar.bg-primary .navbar-text,
+.navbar.bg-primary .navbar-text a {
+    color: #ffffff !important;
+}
+
+.navbar.bg-primary .navbar-text a:hover,
+.navbar.bg-primary .navbar-text a:focus {
+    color: #ffeb3b !important;
+}
+
+/* Warna teks utama seluruh halaman */
+body {
+    color: #333333 !important; /* Abu tua, jelas di background putih */
+    font-weight: 500 !important; /* Sedikit lebih tebal */
+}
+
+/* Warna judul */
+h1, h2, h3, h4, h5, h6 {
+    color: #2e7d32 !important; /* Hijau tua untuk kontras */
+    font-weight: 600 !important;
+}
+
+/* Hover menu sidebar */
+.nav .nav-link:hover, .nav .nav-link:focus {
+    color: #ffeb3b !important; /* Hover menu jadi kuning */
+}
+
+/* Warna alert */
+.alert-primary {
+    background-color: #d0f0c0 !important;
+    border-color: #4caf50 !important;
+    color: #2e7d32 !important;
+}
+
+/* Warna input aktif */
+.form-control:focus,
+.form-select:focus {
+    border-color: #4caf50 !important;
+    box-shadow: 0 0 5px #4caf50 !important;
+}
+
+/* CUSTOM MENU DAN FOOTER LEBIH CERAH */
+
+/* Menu Sidebar */
+.menu.bg-primary {
+  background-color: #4caf50 !important; /* Hijau cerah */
+  color: #ffffff !important;
+}
+
+.menu.bg-primary .menu-link,
+.menu.bg-primary .menu-horizontal-prev,
+.menu.bg-primary .menu-horizontal-next {
+  color: #ffffff !important;
+}
+
+.menu.bg-primary .menu-link:hover, .menu.bg-primary .menu-link:focus,
+.menu.bg-primary .menu-horizontal-prev:hover,
+.menu.bg-primary .menu-horizontal-prev:focus,
+.menu.bg-primary .menu-horizontal-next:hover,
+.menu.bg-primary .menu-horizontal-next:focus {
+  color: #ffeb3b !important; /* Kuning saat hover */
+}
+
+.menu.bg-primary .menu-link.active,
+.menu.bg-primary .menu-horizontal-prev.active,
+.menu.bg-primary .menu-horizontal-next.active {
+  color: #ffeb3b !important;
+}
+
+.menu.bg-primary .menu-item.disabled .menu-link,
+.menu.bg-primary .menu-horizontal-prev.disabled,
+.menu.bg-primary .menu-horizontal-next.disabled {
+  color: #dcedc8 !important; /* Hijau pucat untuk disabled */
+}
+
+.menu.bg-primary .menu-item.open:not(.menu-item-closing) > .menu-toggle,
+.menu.bg-primary .menu-item.active > .menu-link {
+  color: #ffeb3b !important;
+}
+
+.menu.bg-primary .menu-item.active > .menu-link:not(.menu-toggle) {
+  background-color: #43a047 !important; /* Hijau tua untuk item aktif */
+}
+
+.menu.bg-primary.menu-horizontal .menu-sub > .menu-item.active > .menu-link:not(.menu-toggle) {
+  background-color: #388e3c !important;
+}
+
+.menu.bg-primary.menu-horizontal .menu-inner .menu-item:not(.menu-item-closing) > .menu-sub,
+.menu.bg-primary.menu-horizontal .menu-inner .menu-item.open > .menu-toggle {
+  background: #43a047 !important;
+}
+
+.menu.bg-primary .menu-inner > .menu-item.menu-item-closing .menu-item.open .menu-sub,
+.menu.bg-primary .menu-inner > .menu-item.menu-item-closing .menu-item.open .menu-toggle {
+  background: transparent;
+  color: #ffffff !important;
+}
+
+.menu.bg-primary .menu-inner-shadow {
+  background: linear-gradient(#4caf50 41%, rgba(76, 175, 80, 0.11) 95%, rgba(76, 175, 80, 0)) !important;
+}
+
+.menu.bg-primary .menu-text {
+  color: #ffffff !important;
+}
+
+.menu.bg-primary .menu-header {
+  color: #c8e6c9 !important; /* Hijau muda */
+}
+
+.menu.bg-primary hr,
+.menu.bg-primary .menu-divider,
+.menu.bg-primary .menu-inner > .menu-item.open > .menu-sub::before {
+  border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.menu.bg-primary .menu-inner > .menu-header::before {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.menu.bg-primary .menu-block::before {
+  background-color: #c8e6c9 !important;
+}
+
+.menu.bg-primary .menu-inner > .menu-item.open .menu-item.open > .menu-toggle::before {
+  background-color: #66bb6a !important;
+}
+
+.menu.bg-primary .menu-inner > .menu-item.open .menu-item.active > .menu-link::before {
+  background-color: #ffeb3b !important;
+}
+
+.menu.bg-primary .menu-inner > .menu-item.open .menu-item.open > .menu-toggle::before,
+.menu.bg-primary .menu-inner > .menu-item.open .menu-item.active > .menu-link::before {
+  box-shadow: 0 0 0 2px #43a047 !important;
+}
+
+.menu.bg-primary .ps__thumb-y,
+.menu.bg-primary .ps__rail-y.ps--clicking > .ps__thumb-y {
+  background: rgba(255, 255, 255, 0.6) !important;
+}
+
+/* Footer */
+.footer.bg-primary {
+  background-color: #4caf50 !important;
+  color: #ffffff !important;
+}
+
+.footer.bg-primary .footer-link {
+  color: #ffffff !important;
+}
+
+.footer.bg-primary .footer-link:hover, .footer.bg-primary .footer-link:focus {
+  color: #ffeb3b !important;
+}
+
+.footer.bg-primary .footer-link.disabled {
+  color: #dcedc8 !important;
+}
+
+.footer.bg-primary .footer-text {
+  color: #ffffff !important;
+}
+
+.footer.bg-primary .show > .footer-link,
+.footer.bg-primary .active > .footer-link,
+.footer.bg-primary .footer-link.show,
+.footer.bg-primary .footer-link.active {
+  color: #ffeb3b !important;
+}
+
+.footer.bg-primary hr {
+  border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* ========================== */
+/* TOAST / NOTIFIKASI */
+/* ========================== */
+.bg-primary.toast, .bg-primary.bs-toast {
+  color: #fff;
+  background-color: rgba(175, 76, 122, 0.9) !important; /* Hijau cerah */
+  box-shadow: 0 0.25rem 1rem rgba(76, 175, 80, 0.4);
+}
+
+.bg-primary.toast .toast-header, .bg-primary.bs-toast .toast-header {
+  color: #fff;
+}
+
+.bg-primary.toast .toast-header .btn-close, .bg-primary.bs-toast .toast-header .btn-close {
+  background-color: #4caf50 !important;
+  background-image: url("data:image/svg+xml,%3Csvg width='150px' height='151px' viewBox='0 0 150 151' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon fill='%23ffffff' points='131.25 0 75 56.25 18.75 0 0 18.75 56.25 75 0 131.25 18.75 150 75 93.75 131.25 150 150 131.25 93.75 75 150 18.75'/%3E%3C/svg%3E");
+  box-shadow: 0 0.1875rem 0.375rem 0 rgba(76, 175, 80, 0.4) !important;
+}
+
+/* ========================== */
+/* FORM FLOATING LABEL */
+/* ========================== */
+.form-floating > .form-control:not(:-moz-placeholder-shown) ~ label {
+  color: #4caf50 !important;
+}
+
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label,
+.form-floating > .form-select ~ label {
+  color: #4caf50 !important;
+}
+
+.form-floating > .form-control:-webkit-autofill ~ label {
+  color: #4caf50 !important;
+}
+
+/* ========================== */
+/* SVG FILL */
+/* ========================== */
+.svg-illustration svg {
+  fill: #4caf50 !important;
+}
+
+/* ========================== */
+/* BORDER */
+/* ========================== */
+html:not([dir=rtl]) .border-primary,
+html[dir=rtl] .border-primary {
+  border-color: #15025a !important;
+}
+
+/* ========================== */
+/* LINK */
+/* ========================== */
+a {
+  color: #021b8b !important;
+}
+
+a:hover {
+  color: #fd7e06 !important;
+}
+
+/* ========================== */
+/* SVG FILL UTILITY */
+/* ========================== */
+.fill-primary {
+  fill: #4caf50 !important;
+}
+
+/* ========================== */
+/* NAVBAR THEME */
+/* ========================== */
+.bg-navbar-theme {
+  background-color: #ffffff !important;
+  color: #4e4e4e !important;
+}
+
+.bg-navbar-theme .navbar-brand,
+.bg-navbar-theme .navbar-brand a {
+  color: #333333 !important;
+}
+
+.bg-navbar-theme .navbar-brand:hover, .bg-navbar-theme .navbar-brand:focus,
+.bg-navbar-theme .navbar-brand a:hover,
+.bg-navbar-theme .navbar-brand a:focus {
+  color: #333333 !important;
+}
+
+.bg-navbar-theme .navbar-search-wrapper .navbar-search-icon,
+.bg-navbar-theme .navbar-search-wrapper .search-input {
+  color: #4e4e4e !important;
+}
+
+.bg-navbar-theme .search-input-wrapper .search-input,
+.bg-navbar-theme .search-input-wrapper .search-toggler {
+  background-color: #ffffff !important;
+  color: #4e4e4e !important;
+}
+
+.bg-navbar-theme .navbar-nav > .nav-link,
+.bg-navbar-theme .navbar-nav > .nav-item > .nav-link,
+.bg-navbar-theme .navbar-nav > .nav > .nav-item > .nav-link {
+  color: #4e4e4e !important;
+}
+
+.bg-navbar-theme .navbar-nav > .nav-link:hover, .bg-navbar-theme .navbar-nav > .nav-link:focus,
+.bg-navbar-theme .navbar-nav > .nav-item > .nav-link:hover,
+.bg-navbar-theme .navbar-nav > .nav-item > .nav-link:focus,
+.bg-navbar-theme .navbar-nav > .nav > .nav-item > .nav-link:hover,
+.bg-navbar-theme .navbar-nav > .nav > .nav-item > .nav-link:focus {
+  color: #333333 !important;
+}
+
+.bg-navbar-theme .navbar-nav > .nav-link.disabled,
+.bg-navbar-theme .navbar-nav > .nav-item > .nav-link.disabled,
+.bg-navbar-theme .navbar-nav > .nav > .nav-item > .nav-link.disabled {
+  color: #a5afbb !important;
+}
+
+.bg-navbar-theme .navbar-nav .show > .nav-link,
+.bg-navbar-theme .navbar-nav .active > .nav-link,
+.bg-navbar-theme .navbar-nav .nav-link.show,
+.bg-navbar-theme .navbar-nav .nav-link.active {
+  color: #333333 !important;
+}
+
+.bg-navbar-theme .navbar-toggler {
+  color: #4e4e4e !important;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.bg-navbar-theme .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg width='14px' height='11px' viewBox='0 0 14 11' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='rgba(67, 89, 113, 0.5)' d='M0,0 L14,0 L14,1.75 L0,1.75 L0,0 Z M0,4.375 L14,4.375 L14,6.125 L0,6.125 L0,4.375 Z M0,8.75 L14,8.75 L14,10.5 L0,10.5 L0,8.75 Z'/%3E%3C/svg%3E");
+}
+
+.bg-navbar-theme .navbar-text {
+  color: #4e4e4e !important;
+}
+
+.bg-navbar-theme .navbar-text a {
+  color: #333333 !important;
+}
+
+.bg-navbar-theme .navbar-text a:hover, .bg-navbar-theme .navbar-text a:focus {
+  color: #333333 !important;
+}
+
+.bg-navbar-theme hr {
+  border-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+/* ========================== */
+/* LAYOUT NAVBAR */
+/* ========================== */
+.layout-navbar {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  -webkit-backdrop-filter: saturate(200%) blur(6px);
+  backdrop-filter: saturate(200%) blur(6px);
+}
+
+.navbar-detached {
+  box-shadow: 0 0 0.375rem 0.25rem rgba(76, 175, 80, 0.15);
+}
+
+.layout-navbar-fixed .layout-page:before {
+  -webkit-backdrop-filter: saturate(200%) blur(10px);
+  backdrop-filter: saturate(200%) blur(10px);
+  background: rgba(245, 245, 249, 0.6);
+}
+
+/* ========================== */
+/* MENU THEME */
+/* ========================== */
+.bg-menu-theme {
+  background-color: #ffffff !important;
+  color: #4e4e4e;
+}
+
+.bg-menu-theme .menu-link,
+.bg-menu-theme .menu-horizontal-prev,
+.bg-menu-theme .menu-horizontal-next {
+  color: #4e4e4e;
+}
+
+.bg-menu-theme .menu-link:hover, .bg-menu-theme .menu-link:focus,
+.bg-menu-theme .menu-horizontal-prev:hover,
+.bg-menu-theme .menu-horizontal-prev:focus,
+.bg-menu-theme .menu-horizontal-next:hover,
+.bg-menu-theme .menu-horizontal-next:focus {
+  color: #388e3c;
+}
+
+.bg-menu-theme .menu-link.active,
+.bg-menu-theme .menu-horizontal-prev.active,
+.bg-menu-theme .menu-horizontal-next.active {
+  color: #388e3c;
+}
+
+.bg-menu-theme .menu-item.disabled .menu-link,
+.bg-menu-theme .menu-horizontal-prev.disabled,
+.bg-menu-theme .menu-horizontal-next.disabled {
+  color: #a5afbb !important;
+}
+
+.bg-menu-theme .menu-item.open:not(.menu-item-closing) > .menu-toggle,
+.bg-menu-theme .menu-item.active > .menu-link {
+  color: #388e3c;
+}
+
+.bg-menu-theme .menu-item.active > .menu-link:not(.menu-toggle),
+.bg-menu-theme.menu-horizontal .menu-sub > .menu-item.active > .menu-link:not(.menu-toggle) {
+  background-color: rgba(76, 175, 80, 0.1);
+}
+
+.bg-menu-theme.menu-horizontal .menu-inner .menu-item:not(.menu-item-closing) > .menu-sub, 
+.bg-menu-theme.menu-horizontal .menu-inner .menu-item.open > .menu-toggle {
+  background: #ffffff;
+}
+
+.bg-menu-theme .menu-inner > .menu-item.menu-item-closing .menu-item.open .menu-sub,
+.bg-menu-theme .menu-inner > .menu-item.menu-item-closing .menu-item.open .menu-toggle {
+  background: transparent;
+  color: #4e4e4e;
+}
+
+.bg-menu-theme .menu-inner-shadow {
+  background: linear-gradient(#ffffff 41%, rgba(255, 255, 255, 0.11) 95%, rgba(255, 255, 255, 0));
+}
+
+.bg-menu-theme .menu-text {
+  color: #388e3c;
+}
+
+.bg-menu-theme .menu-header {
+  color: #8f9baa;
+}
+
+.bg-menu-theme hr,
+.bg-menu-theme .menu-divider,
+.bg-menu-theme .menu-inner > .menu-item.open > .menu-sub::before {
+  border-color: transparent !important;
+}
+
+.bg-menu-theme .menu-inner > .menu-header::before {
+  background-color: transparent;
+}
+
+.bg-menu-theme .menu-block::before {
+  background-color: #8f9baa;
+}
+
+.bg-menu-theme .menu-inner > .menu-item.open .menu-item.open > .menu-toggle::before {
+  background-color: #ffffff;
+}
+
+.bg-menu-theme .menu-inner > .menu-item.open .menu-item.active > .menu-link::before {
+  background-color: #388e3c;
+}
+
+.bg-menu-theme .menu-inner > .menu-item.open .menu-item.open > .menu-toggle::before,
+.bg-menu-theme .menu-inner > .menu-item.open .menu-item.active > .menu-link::before {
+  box-shadow: 0 0 0 2px #4caf50;
+}
+
+.bg-menu-theme .ps__thumb-y,
+.bg-menu-theme .ps__rail-y.ps--clicking > .ps__thumb-y {
+  background: rgba(76, 175, 80, 0.2) !important;
+}
+
+.bg-menu-theme .menu-inner .menu-sub > .menu-item.active > .menu-link.menu-toggle {
+  background-color: rgba(76, 175, 80, 0.1);
+}
+
+.bg-menu-theme .menu-inner .menu-sub > .menu-item.active .menu-icon {
+  color: #4caf50;
+}
+
+.bg-menu-theme .menu-inner > .menu-item.active > .menu-link {
+  color: #4caf50;
+  background-color: rgba(76, 175, 80, 0.2) !important;
+}
+
+.bg-menu-theme .menu-inner > .menu-item.active:before {
+  background: #4caf50;
+}
+
+.bg-menu-theme .menu-sub > .menu-item > .menu-link:before {
+  background-color: #b4bdc6 !important;
+}
+
+.bg-menu-theme .menu-sub > .menu-item.active > .menu-link:not(.menu-toggle):before {
+  background-color: #4caf50 !important;
+  border: 3px solid #e7ffe7 !important;
+}
+
+/* ========================== */
+/* MENU TOGGLE */
+/* ========================== */
+.app-brand .layout-menu-toggle {
+  background-color: #4caf50;
+  border: 7px solid #f5f5f9;
+}
+
+.app-brand .layout-menu-toggle i {
+  color: #ffffff;
+}
+
+.app-brand .layout-menu-toggle .menu-inner > .menu-header::before {
+  background-color: #b4bdc6;
+}
+
+/* ========================== */
+/* FOOTER THEME */
+/* ========================== */
+.bg-footer-theme {
+  background-color: #f5f5f9 !important;
+  color: #4e4e4e;
+}
+
+.bg-footer-theme .footer-link {
+  color: #4e4e4e;
+}
+
+.bg-footer-theme .footer-link:hover, .bg-footer-theme .footer-link:focus {
+  color: #388e3c;
+}
+
+.bg-footer-theme .footer-link.disabled {
+  color: #a1abb8 !important;
+}
+
+.bg-footer-theme .footer-text {
+  color: #388e3c;
+}
+
+.bg-footer-theme .show > .footer-link,
+.bg-footer-theme .active > .footer-link,
+.bg-footer-theme .footer-link.show,
+.bg-footer-theme .footer-link.active {
+  color: #388e3c;
+}
+
+.bg-footer-theme hr {
+  border-color: rgba(86, 106, 127, 0.1);
+}
+
+/* ========================== */
+/* FOOTER SHADOW */
+/* ========================== */
+.layout-footer-fixed .content-footer {
+  box-shadow: 0 0 0.375rem 0.25rem rgba(76, 175, 80, 0.15);
+}
+
+body {
+    font-family: 'Poppins', sans-serif !important; /* Ganti dengan font yang kamu suka */
+    color: #000000 !important; /* Warna teks jadi hitam biar lebih jelas */
+    font-weight: 500 !important; /* Ketebalan medium */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600 !important; /* Heading lebih tebal */
+    color: #000000 !important; /* Warna teks heading */
+}
+
+.text-muted {
+    color: #555555 !important; /* Ubah warna teks yang biasanya abu-abu muda */
+    font-weight: 600 !important;
+}
+
+/* Ubah background sidebar jadi gambar */
+.layout-menu.menu-vertical.bg-menu-theme {
+    background-image: url('/sneat/img/side6.jpg') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
+    color: #f1edec !important; /* Teks putih agar jelas */
+}
+
+/* Warna teks menu */
+.layout-menu.menu-vertical.bg-menu-theme .menu-link,
+.layout-menu.menu-vertical.bg-menu-theme .menu-header {
+    color: #d505f1f1 !important;
+    font-weight: 600 !important;
+}
+
+/* Warna teks saat hover dan aktif */
+.layout-menu.menu-vertical.bg-menu-theme .menu-link:hover,
+.layout-menu.menu-vertical.bg-menu-theme .menu-link.active {
+    color: #1eff00 !important; /* Warna kuning saat hover/aktif */
+    background-color: rgba(0, 0, 0, 0.3) !important; /* Efek gelap saat hover */
+    border-radius: 5px !important;
+}
+
+
+
+/* Ubah background container menjadi gambar estetik */
+.container-xxl {
+    background: url('/sneat/img/2,jpg.jpg') no-repeat center center !important;
+    background-size: cover !important;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(7, 7, 7, 0.1);
+    color: #ffffff; /* Biar teks tetap terbaca */
+}
